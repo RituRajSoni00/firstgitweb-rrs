@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+header{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+
+.logo{
+    font-size: 2em;
+    color: white;
+    user-select: none;
+}
+
+.navigation{
+    position: relative;
+    font-size: 1.1em;
+    color: aliceblue;
+    text-decoration: none;
+
+}
+
+.login{
+   width: 130px;
+   height: 50px;
+   background-color: transparent;
+   border-style: solid;
+   color: white;
+   border-color: white;
+   border-radius: 10px;
+   font-size: 1.1em;
+   cursor: pointer;
+}
